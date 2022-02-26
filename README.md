@@ -302,33 +302,32 @@ connect to the MySQL console using the 'root' account.
 Step 2:
 To create a new database, run the following command from your MySQL console.
 
-![p50](https://user-images.githubusercontent.com/91766546/155855563-f552e1b0-6038-4d20-9098-d772b04136f7.png)
+![p50](https://user-images.githubusercontent.com/91766546/155857898-8eb20ac9-a6ba-46e3-b830-1e39ea3359e5.png)
 
 Step 3:
 create a new user and grant him/her full privileges on the database you have just created.
 
-![p51](https://user-images.githubusercontent.com/91766546/155855603-7756fadb-4907-4f33-ab7d-f96e84722a93.png)
+![p51](https://user-images.githubusercontent.com/91766546/155857908-5a3cd8cd-c567-4918-bd5c-28f3cd42c139.png)
 
 Step 4:
-Give this user permission over the 'example_database' database.
+Give this user permission over the database.
 
-![p52](https://user-images.githubusercontent.com/91766546/155855629-877563b5-6d1d-4630-85bc-e47648ddb0ec.png)
+![52](https://user-images.githubusercontent.com/91766546/155857942-5eca3a2b-8ad1-42de-b220-fb0c75b73f5d.png)
 
 Step 5:
 Exit from the MySQL console and Test if the new user has the proper permissions by logging in to the MySQL console again using the custom user credentials.
 
 ![p53](https://user-images.githubusercontent.com/91766546/155855724-a146dd0f-5543-49d1-9e0a-4e4a7b4b326b.png)
 
-![p54](https://user-images.githubusercontent.com/91766546/155855725-ba4f1188-af23-4759-9462-dd2522b3ea90.png)
+This will prompt you for the password used when creating the user. 
 
-This will prompt you for the password used when creating the example_user user. 
-
-![p55](https://user-images.githubusercontent.com/91766546/155855736-ad2e55bb-f6d5-4de2-8be7-a1a637a8224c.png)
+![54](https://user-images.githubusercontent.com/91766546/155857967-1c31dc8a-f79d-4cd0-935d-09889b361d4d.png)
 
 Step 6:
-After logging in to the MySQL console, confirm that you have access to the example_database database.
+After logging in to the MySQL console, confirm that you have access to the database.
 
 ![p56](https://user-images.githubusercontent.com/91766546/155855781-6d7a1e01-dee7-42df-8070-c21273af6543.png)
+
 
 This will give you the following output.
 
@@ -337,17 +336,17 @@ This will give you the following output.
 Step 7:
 Next, we’ll go ahead and create a test table named todo_list. Run the following statement from your MySQL console.
 
-![p59](https://user-images.githubusercontent.com/91766546/155855842-8d71b694-a9a6-48b9-aab2-bf5ad4e1bdd2.png)
+![56](https://user-images.githubusercontent.com/91766546/155858123-8a62d098-2683-4462-b28c-94062f0164fc.png)
 
 Step 8:
 Insert a few rows of content in the test table. And repeat the next command a few times, using different VALUES.
 
-![p61](https://user-images.githubusercontent.com/91766546/155855974-40b339d6-961a-4536-a6d4-ca124a0302ab.png)
+![57](https://user-images.githubusercontent.com/91766546/155858129-5ea8490e-d519-4ec0-aac1-b93ef6e243b0.png)
 
 Step 9:
 Exit the MySQL console after confirming that the data was successfully saved to your table.
 
-![p62](https://user-images.githubusercontent.com/91766546/155856078-346dfee9-1407-439d-8935-23c0f109fcc8.png)
+![58](https://user-images.githubusercontent.com/91766546/155858155-ea394bdd-e50b-4290-8302-c38097fac7d0.png)
 
 Now you can create a PHP script that will connect to MySQL and query for your content. 
 
@@ -355,14 +354,15 @@ Create a new PHP file in your custom web root directory using nano.
 
 ![p66](https://user-images.githubusercontent.com/91766546/155856198-5de25b97-7b2b-4412-9710-762e86d31fd5.png)
 
-![p63](https://user-images.githubusercontent.com/91766546/155856213-1710e83e-6c62-4495-9a59-df4b4291ef12.png)
+![p67](https://user-images.githubusercontent.com/91766546/155858084-578f0dbb-e57e-4a48-9bfc-5d1826864e70.png)
 
 Save and close the file when you are done editing.
 
 You can now access this page in your web browser by visiting the domain name or public IP address configured for your website, followed by /todo_list.php.
 If you see a page like this, showing the content you’ve inserted in your test table, your PHP environment is ready to connect and interact with your MySQL server.
 
-![p64](https://user-images.githubusercontent.com/91766546/155856248-136e0f90-3e24-4891-8b2d-bbae51c8c05d.png)
+![68](https://user-images.githubusercontent.com/91766546/155858099-4f6dc3ac-a8d0-4001-955d-458b7cc99aa3.png)
+
 
 #### Congratulations! You have successfully built a flexible foundation for serving PHP websites and applications to your visitors, using Nginx as web server and MySQL as database management system.
 
