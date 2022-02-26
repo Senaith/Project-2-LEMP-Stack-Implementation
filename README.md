@@ -7,7 +7,7 @@ LEMP refers to a collection of open-source software that is commonly used togeth
 
 This project will give you a better understanding of what the LEMP stack is and how to implement it on Amazon Web Services (AWS). AWS is the biggest Cloud service provider, and it offers a free tier account that we will be able to utilize for our project. For the purpose of this project, we will be employing EC2 (Elastic Compute Cloud) service.
 
-## Setting up our Virtual Environment
+## Setting up your Virtual Environment
 
 In order to complete this project, we need to begin by setting up an AWS account and a virtual server with Ubuntu Server OS.
 
