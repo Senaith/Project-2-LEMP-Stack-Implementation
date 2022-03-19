@@ -13,7 +13,7 @@ This project will give you a better understanding of what the LEMP stack is and 
 In order to complete this project, we need to begin by setting up an AWS account and a virtual server with Ubuntu Server OS.
 
 Step 1:
-Create free AWS account. Instructions for this can be found here. Once you have created your AWS account, navigate to the login page and type in your credentials.
+Create free AWS account. Once you have created your AWS account, navigate to the login page and type in your credentials.
 
 ![step1](https://user-images.githubusercontent.com/91766546/155834553-450930ad-5f7e-4bdd-943d-f4db1b92bfba.png)
 
